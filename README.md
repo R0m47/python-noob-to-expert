@@ -4,7 +4,7 @@ Este repositorio contiene  una colección de proyectos en Python diseñada para 
 
 ## Nivel 1: Generador de Nombres Aleatorios
 
-**En este proyecto aprenderás a interactuar con el usuario a través de la consola, capturar datos de entrada y mostrarlos por pantalla. Sirve para reforzar conceptos básicos de Python como:
+En este proyecto aprenderás a interactuar con el usuario a través de la consola, capturar datos de entrada y mostrarlos por pantalla. Sirve para reforzar conceptos básicos de Python como:
 
 * Uso de la función `print()` para mostrar mensajes.
 * Uso de la función `input()` para recibir datos.
