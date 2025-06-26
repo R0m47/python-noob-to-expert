@@ -4,7 +4,7 @@ Este repositorio contiene  una colección de proyectos en Python diseñada para 
 
 ## Nivel 1: Generador de Nombres Aleatorios
 
-**En este proyecto aprenderás a interactuar con el usuario a través de la consola, capturar datos de entrada y mostrarlos por pantalla. Sirve para reforzar conceptos básicos de Python como:
+En este proyecto aprenderás a interactuar con el usuario a través de la consola, capturar datos de entrada y mostrarlos por pantalla. Sirve para reforzar conceptos básicos de Python como:
 
 * Uso de la función `print()` para mostrar mensajes.
 * Uso de la función `input()` para recibir datos.
@@ -28,4 +28,30 @@ Este repositorio contiene  una colección de proyectos en Python diseñada para 
 * Comprender cómo funcionan las funciones integradas de Python.
 * Practicar la concatenación y el manejo de cadenas.
 
----
+## Nivel 2: Calculadora de Propinas
+
+En este proyecto de nivel 2 aprenderás a trabajar con tipos numéricos, conversión de datos de entrada, operaciones aritméticas y formateo de salida. Sirve para reforzar conceptos como:
+
+* Conversión de `input()` a float e int.
+* Operaciones aritméticas básicas.
+* Uso de la función `round()` para redondeo.
+* Formateo de cadenas con f-strings.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `tip_calculator.py`.
+2. Abre la terminal y dirígete a la carpeta donde está el archivo.
+3. Ejecuta el comando:
+
+   ```bash
+   python tip_calculator.py
+   ```
+
+4. Ingresa el valor de la cuenta, porcentaje de propina y número de personas para obtener el monto individual.
+
+**Objetivos de aprendizaje:**
+
+* Manejo de tipos numéricos (float, int).
+* Aplicación de operaciones matemáticas y fórmulas.
+* Redondeo de resultados.
+* Uso de f-strings para formatear la salida.
