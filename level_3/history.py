@@ -12,7 +12,7 @@ print(
 )
 print("Welcome to Guayakill.")
 print("Your mission is to survive in Guayakill.")
-print("Where do you want to go? to El Guasmo o La Bahía?")
+print("Where do you want to go? to El Guasmo o La Bahia?")
 where_you_go = input("Type 'El Guasmo' or 'La Bahia'")
 if where_you_go == "El Guasmo":
     print(
@@ -46,7 +46,7 @@ else:
         "In the distance you can see three important people from Guayakill: Abdala Bucaram, Luisa Gonzales and Daniel Noboa."
     )
     vip = input(
-        "Choose the character you'll spend the day with; type 'Abdala Bucaram,' 'Luisa González,' or 'Daniel Noboa.'"
+        "Choose the character you'll spend the day with; type 'Abdala Bucaram,' 'Luisa Gonzalez,' or 'Daniel Noboa.'"
     )
     if vip == "Abdala Bucaram":
         print(
