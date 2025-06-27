@@ -55,3 +55,33 @@ En este proyecto de nivel 2 aprenderás a trabajar con tipos numéricos, convers
 * Aplicación de operaciones matemáticas y fórmulas.
 * Redondeo de resultados.
 * Uso de f-strings para formatear la salida.
+
+## Nivel 3: Aventura en Guayakill
+
+En este proyecto de nivel 3 aprenderás a utilizar cadenas multilínea, estructuras de control if/else anidadas, comparación de cadenas y arte ASCII para crear un pequeño juego de texto. Sirve para reforzar conceptos como:
+
+* Uso de cadenas de texto multilínea con triple comillas.
+* Estructuras condicionales y lógica anidada.
+* Recepción y comparación de datos de entrada `(str)`.
+* Inclusión de arte ASCII para mejorar la experiencia de usuario.
+* Diseño básico de flujo de juego.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado adventure_guayakill.py.
+2. Abre la terminal y ve a la carpeta donde esté el archivo.
+3. Ejecuta el comando:
+
+   ```bash
+   python history.py
+   ```
+4. Sigue las indicaciones en pantalla para vivir la aventura.
+
+**Objetivos de aprendizaje:**
+
+* Dominar cadenas multilínea con triple comillas.
+* Gestionar flujos de ejecución con if, elif y else.
+* Anidar condicionales para decisiones múltiples.
+* Comparar y evaluar input de usuario.
+* Integrar arte ASCII para enriquecer salidas de consola.
+
