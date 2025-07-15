@@ -30,12 +30,12 @@ rock_paper_scissors = [
 user_choice = int(
     input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. ")
 )
-
 computer_choice = randint(0, 2)
 
-print(rock_paper_scissors[user_choice])
-print("Computer chose:")
-print(rock_paper_scissors[computer_choice])
+if user_choice <= 2 and user_choice >= 0:
+    print(rock_paper_scissors[user_choice])
+    print("Computer chose:")
+    print(rock_paper_scissors[computer_choice])
 
 if user_choice >= 3 or user_choice <= 0:
     print("You typed an invalid number. You lose!")
