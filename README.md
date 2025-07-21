@@ -110,3 +110,28 @@ En este proyecto de nivel 4 desarrollarás un clásico juego de Piedra, Papel o 
 - Acceder a elementos de una lista mediante indexación.
 - Validar y gestionar entradas no válidas.
 - Implementar lógica de juego con múltiples condiciones.
+
+## Nivel 5: Generador de Contraseñas
+
+En este proyecto de nivel 5 crearás un generador de contraseñas seguro y aleatorio. Aprenderás a trabajar con múltiples estructuras de datos, elegir elementos al azar, mezclar listas y unir caracteres en una cadena final.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `password_generator.py`.
+2. Abre la terminal y sitúate en la carpeta donde guardaste el archivo.
+3. Ejecuta el comando:
+
+   ```bash
+   python password_generator.py
+   ```
+
+4. Especifica la cantidad de letras, símbolos y números para generar tu contraseña.
+
+**Objetivos de aprendizaje:**
+
+- Importar y usar módulos estándar (`random`).
+- Crear y combinar listas.
+- Utilizar `random.choices()` para selección aleatoria.
+- Emplear `random.shuffle()` para mezclar elementos.
+- Convertir una lista de caracteres en cadena con `"".join()`.
+- Formatear la salida con f-strings.
