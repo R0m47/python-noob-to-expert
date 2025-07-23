@@ -135,3 +135,31 @@ En este proyecto de nivel 5 crearás un generador de contraseñas seguro y aleat
 - Emplear `random.shuffle()` para mezclar elementos.
 - Convertir una lista de caracteres en cadena con `"".join()`.
 - Formatear la salida con f-strings.
+
+## Nivel 6: Juego del ahorcado
+
+En este proyecto de nivel 6 desarrollarás el clásico juego del Ahorcado. Aprenderás a gestionar el flujo de juego con bucles, manejar estado (vidas, letras adivinadas), validar entradas repetidas y mostrar etapas de ASCII art para la representación visual del ahorcado.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `hangman_game.py`.
+2. Asegúrate de tener en la misma carpeta los módulos auxiliares:
+   - `hangman_words.py` con la lista `word_list`.
+   - `hangman_art.py` con las variables `stages` y `logo`.
+3. Abre la terminal y navega hasta la carpeta.
+4. Ejecuta:
+
+   ```bash
+   python hangman_game.py
+   ```
+
+5. Adivina letras hasta completar la palabra o quedarte sin vidas.
+
+**Objetivos de aprendizaje:**
+
+- Importar módulos y gestionar dependencias entre archivos.
+- Uso de bucles `while` para controlar el flujo de juego.
+- Gestión de listas y cadenas para mostrar el progreso del jugador.
+- Control de estado con variables (`lives`, `correct_letters`).
+- Manejo de entradas repetidas y validación.
+- Integración de arte ASCII para representar las etapas del ahorcado.
