@@ -163,3 +163,28 @@ En este proyecto de nivel 6 desarrollarás el clásico juego del Ahorcado. Apren
 - Control de estado con variables (`lives`, `correct_letters`).
 - Manejo de entradas repetidas y validación.
 - Integración de arte ASCII para representar las etapas del ahorcado.
+
+## Nivel 7: Cifrado César
+
+En este proyecto de nivel 7 implementarás el cifrado César, una técnica de criptografía clásica que consiste en desplazar cada letra del texto un número fijo de posiciones en el alfabeto.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `caesar_cipher.py`.
+2. Asegúrate de tener en la misma carpeta el módulo `caesar_cipher_art.py` con la variable `logo`.
+3. Abre la terminal y navega hasta la carpeta.
+4. Ejecuta:
+
+   ```bash
+   python caesar_cipher.py
+   ```
+
+5. Sigue las indicaciones para cifrar o descifrar mensajes.
+
+**Objetivos de aprendizaje:**
+
+- Definir y llamar funciones con múltiples parámetros.
+- Manejar bucles `for` para procesar cadenas.
+- Utilizar el operador `%` para el desplazamiento cíclico.
+- Gestionar entrada de usuario y validar opciones.
+- Estructurar código en módulos y archivos separados.
