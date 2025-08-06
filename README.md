@@ -188,3 +188,28 @@ En este proyecto de nivel 7 implementarás el cifrado César, una técnica de cr
 - Utilizar el operador `%` para el desplazamiento cíclico.
 - Gestionar entrada de usuario y validar opciones.
 - Estructurar código en módulos y archivos separados.
+
+## Nivel 8: Subasta Secreta
+
+En este proyecto de nivel 8 desarrollarás un programa de subasta secreta donde múltiples participantes pujan y el sistema determina al ganador con la oferta más alta.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `secret_auction.py`.
+2. Asegúrate de tener en la misma carpeta el módulo `secret_auction_art.py` con la variable `logo`.
+3. Abre la terminal y navega hasta la carpeta.
+4. Ejecuta:
+
+   ```bash
+   python secret_auction.py
+   ```
+
+5. Ingresa tu nombre y tu puja, repite hasta que no queden más participantes, y el programa mostrará el ganador.
+
+**Objetivos de aprendizaje:**
+
+- Importar y usar módulos (`os`).
+- Manejar diccionarios para almacenar y comparar datos.
+- Diseñar funciones para encapsular lógica.
+- Controlar múltiples bucles anidados y validación de entradas.
+- Mostrar resultados consolidados al finalizar.
