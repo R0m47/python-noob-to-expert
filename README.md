@@ -213,3 +213,23 @@ En este proyecto de nivel 8 desarrollarás un programa de subasta secreta donde 
 - Diseñar funciones para encapsular lógica.
 - Controlar múltiples bucles anidados y validación de entradas.
 - Mostrar resultados consolidados al finalizar.
+
+## Nivel 9: Calculadora Avanzada
+
+En este nivel construirás una calculadora avanzada que soporta operaciones básicas (suma, resta, multiplicación y división), permite continuar cálculos con el resultado anterior o reiniciar.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en `calculator.py` y ten `calculator_art.py` con logo.
+2. Ejecuta:
+
+   ```bash
+   python calculator.py
+   ```
+
+**Objetivos de aprendizaje:**
+
+- Funciones para cada operación.
+- Uso de diccionario de funciones.
+- Recursividad y reinicio de flujo.
+- Gestión de consola con `os.system`.
