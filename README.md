@@ -233,3 +233,26 @@ En este nivel construirás una calculadora avanzada que soporta operaciones bás
 - Uso de diccionario de funciones.
 - Recursividad y reinicio de flujo.
 - Gestión de consola con `os.system`.
+
+## Nivel 10: Blackjack
+
+En este nivel implementarás el famoso juego de cartas Blackjack (21) contra la computadora.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en `blackjack.py` y crea `blackjack_art.py` con la variable `logo`.
+2. Ejecuta:
+
+   ```bash
+   python calculator.py
+   ```
+
+3. Decide si pedir más cartas o plantarte y compite contra la casa.
+
+**Objetivos de aprendizaje:**
+
+- Modelar reglas de juego con funciones (`deal_card`, `calculate_score`, `compare`).
+- Detectar Blackjack mediante un valor centinela (0) y gestionar el As como 1/11.
+- Implementar el turno del crupier con reglas (pedir hasta 17).
+- Controlar el ciclo de juego con while y entradas del usuario.
+- Separar arte y lógica en módulos distintos.
