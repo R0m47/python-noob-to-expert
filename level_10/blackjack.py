@@ -1,5 +1,38 @@
 from blackjack_art import logo
-from random import randint
+import random
+
+
+def deal_card():
+    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    card = random.choice(cards)
+    return card
+
+
+def calculate_score(cards):
+    if sum(cards) == 21 and len(cards) == 2:
+        return 0
+
+    if 11 in cards and sum(cards) > 21:
+        cards.remove(11)
+        cards.append(1)
+    return sum(cards)
+
+
+def compare(u_score, c_score):
+    if u_score == c_score:
+        return "Draw"
+    elif c_score == 0:
+        return "You Lose, the house has Blackjack"
+    elif u_score == 0:
+        return "You Win with a Blackjack"
+    elif u_score > 21:
+        return "You went over. You lose"
+    elif c_score > 21:
+        return "The house went over. You win"
+    elif u_score > c_score:
+        return "You Win"
+    else:
+        return "You Lose"
 
 
 def play_or_not():
@@ -10,69 +43,42 @@ def play_or_not():
 
 def blackjack():
     print(logo)
-    five_elevens = False
-    my_first_card = randint(1, 11)
-    my_second_card = randint(1, 11)
-    computer_first_card = randint(1, 11)
-    computer_second_card = randint(1, 11)
-    my_cards = [my_first_card, my_second_card]
-    computer_cards = [computer_first_card, computer_second_card]
-    print(f"Your cards:[{my_cards}]")
-    print(f"Computer's first card:[{computer_first_card}]")
-    if (
-        my_first_card + my_second_card >= 21
-        or computer_first_card + computer_second_card >= 21
-    ):
-        print(f"Your final hand:[{my_cards}]")
-        print(f"Computer's final hand:[{computer_cards}]")
+    is_game_over = False
+    user_cards = []
+    computer_cards = []
+    computer_score = -1
+    user_score = -1
+    for _ in range(2):
+        user_cards.append(deal_card())
+        computer_cards.append(deal_card())
+    while not is_game_over:
+        user_score = calculate_score(user_cards)
+        computer_score = calculate_score(computer_cards)
+        print(f"Your cards:[{user_cards}]")
+        print(f"Computer's first card:[{computer_cards[0]}]")
         if (
-            my_first_card + my_second_card == 21
-            or computer_first_card + computer_second_card > 21
+            user_score == 0
+            or computer_score == 0
+            or user_score > 21
+            or computer_score > 21
         ):
-            print("You Win")
-        elif (
-            my_first_card + my_second_card == 21
-            and computer_first_card + computer_second_card == 21
-        ):
-            print("Draw")
+            is_game_over = True
         else:
-            print("Computer Win")
-    else:
-        pass_or_not = input("Type 'y' to get another card, type 'n' to pass:")
-        if pass_or_not == "y":
-            while not five_elevens:
-                my_third_card = randint(1, 11)
-                if (
-                    my_third_card == 11
-                    and my_first_card == 11
-                    and my_second_card == 11
-                    and computer_first_card == 11
-                    and computer_second_card == 11
-                ):
-                    my_third_card = randint(1, 11)
-                else:
-                    five_elevens = True
-            my_cards.append(my_third_card)
-        print(f"Your final hand:[{my_cards}]")
-        print(f"Computer's final hand:[{computer_cards}]")
-        if (
-            my_first_card + my_second_card + my_third_card
-            == computer_first_card + computer_second_card
-        ):
-            print("Draw")
-        elif (
-            my_first_card + my_second_card + my_third_card > 21
-            and computer_first_card + computer_second_card == 21
-            or computer_first_card + computer_second_card < 21
-            or computer_first_card + computer_second_card
-            < my_first_card + my_second_card + my_third_card
-        ):
-            print("You lose")
-        else:
-            print("You win")
+            pass_or_not = input("Type 'y' to get another card, type 'n' to pass:")
+            if pass_or_not == "y":
+                user_cards.append(deal_card())
+                user_score = calculate_score(user_cards)
+            else:
+                is_game_over = True
+
+    while computer_score != 0 and computer_score < 17:
+        computer_cards.append(deal_card())
+        computer_score = calculate_score(computer_cards)
+
+    print(f"Your final hand:[{user_cards}]")
+    print(f"Computer's final hand:[{computer_cards}]")
+    print(compare(user_score, computer_score))
 
 
-start = play_or_not()
-while start == "y":
+while play_or_not() == "y":
     blackjack()
-    start = play_or_not()
