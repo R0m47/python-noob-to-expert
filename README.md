@@ -256,3 +256,28 @@ En este nivel implementarás el famoso juego de cartas Blackjack (21) contra la 
 - Implementar el turno del crupier con reglas (pedir hasta 17).
 - Controlar el ciclo de juego con while y entradas del usuario.
 - Separar arte y lógica en módulos distintos.
+
+## Nivel 11: Juego de Adivinanza de Números
+
+En este nivel implementarás un juego de adivinar un número secreto entre 1 y 100. El jugador podrá elegir entre dos niveles de dificultad (fácil y difícil), que determinan la cantidad de intentos disponibles.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `number_guessing_game.py`.
+2. Coloca en la misma carpeta el módulo `number_guessing_game_art.py` con la variable `logo`.
+3. Abre la terminal y navega hasta la carpeta del archivo.
+4. Ejecuta:
+
+   ```bash
+   python number_guessing_game.py
+   ```
+
+5. Elige la dificultad y comienza a adivinar el número.
+
+**Objetivos de aprendizaje:**
+
+- Definir funciones para modularizar el código.
+- Usar bucles while y condicionales para controlar el flujo.
+- Validar entradas de usuario.
+- Limpiar la consola según el sistema operativo.
+- Integrar arte ASCII para mejorar la interfaz.

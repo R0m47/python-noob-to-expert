@@ -1,5 +1,6 @@
-from blackjack_art import logo
+import os
 import random
+from blackjack_art import logo
 
 
 def deal_card():
@@ -81,4 +82,5 @@ def blackjack():
 
 
 while play_or_not() == "y":
+    os.system("cls")
     blackjack()
