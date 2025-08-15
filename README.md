@@ -281,3 +281,30 @@ En este nivel implementarás un juego de adivinar un número secreto entre 1 y 1
 - Validar entradas de usuario.
 - Limpiar la consola según el sistema operativo.
 - Integrar arte ASCII para mejorar la interfaz.
+
+## Nivel 12: Higher Lower — Seguidores
+
+En este nivel crearás una versión del juego Higher Lower donde debes adivinar qué celebridad/entidad tiene más seguidores.
+
+**Cómo ejecutarlo:**
+
+1. Guarda este código en un archivo llamado `higher_lower.py`.
+2. Asegúrate de tener en la misma carpeta:
+   - `high_lower_game_art.py` con `logo` y `vs`.
+   - `high_lower_game_data.py` con la lista `data` (cada elemento debe tener `name`, `description`, `country` y `follower_count`).
+3. Abre la terminal y navega hasta la carpeta del archivo.
+4. Ejecuta:
+
+   ```bash
+   python high_lower_game.py
+   ```
+
+5. Escribe A o B para adivinar quién tiene más seguidores y acumula puntaje.
+
+**Objetivos de aprendizaje:**
+
+- Seleccionar elementos aleatorios y evitar repeticiones inmediatas.
+- Encapsular lógica de UI en funciones (game_screen, print_compare).
+- Controlar el estado del juego y el puntaje.
+- Validar entradas y dar retroalimentación inmediata.
+- Trabajar con módulos locales para arte y datos.
