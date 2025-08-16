@@ -4,7 +4,7 @@ In this project, you will develop the classic Hangman game. You will learn to ma
 
 **How to run:**
 
-1. Save this code in a file named `hangman_game.py`.
+1. Save this code in a file named `hangman.py`.
 2. Make sure you have the following helper modules in the same folder:
    - `hangman_words.py` with the list `word_list`.
    - `hangman_art.py` with the variables `stages` and `logo`.
@@ -12,7 +12,7 @@ In this project, you will develop the classic Hangman game. You will learn to ma
 4. Run:
 
    ```bash
-   python hangman_game.py
+   python hangman.py
    ```
 
 5. Guess letters until you complete the word or run out of lives.

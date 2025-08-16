@@ -1,10 +1,10 @@
-## Level 3: Adventure in Guayakill
+## Level 3: History
 
 In this level 3 project, you will learn to use multi-line strings, nested if/else control structures, string comparison, and ASCII art to create a small text-based game.
 
 **How to run:**
 
-1. Save this code in a file named `adventure_guayakill.py`.
+1. Save this code in a file named `history.py`.
 2. Open the terminal and go to the folder containing the file.
 3. Run the command:
 
