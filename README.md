@@ -20,3 +20,9 @@ This repository contains a collection of Python projects designed to reinforce a
 | 10         | [Blackjack](/noob/level_10/blackjack.py)                        |
 | 11         | [Number Guessing Game](/noob/level_11/number_guessing_game.py)  |
 | 12         | [Higher Lower — Followers](/noob/level_12/high_lower_game.py)   |
+
+### Apprentice
+
+| **Levels** | **Project Name**                               |
+| ---------- | ---------------------------------------------- |
+| 13         | [Coffee Machine](/Apprentice/level_13/main.py) |
