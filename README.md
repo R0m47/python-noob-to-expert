@@ -26,3 +26,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | **Levels** | **Project Name**                               |
 | ---------- | ---------------------------------------------- |
 | 13         | [Coffee Machine](/Apprentice/level_13/main.py) |
+| 14         | [Quiz Game](/Apprentice/level_14/main.py)      |
