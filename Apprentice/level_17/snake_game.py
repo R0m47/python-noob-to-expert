@@ -27,6 +27,7 @@ while game_is_on:
     if snake.head.distance(food) < 20:
         food.random_location()
         scoreboard.increase_score()
+        snake.grow()
     if (
         snake.head.xcor() > 280
         or snake.head.xcor() < -280
@@ -35,6 +36,10 @@ while game_is_on:
     ):
         game_is_on = False
         scoreboard.game_over()
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10:
+            game_is_on = False
+            scoreboard.game_over()
 
 
 screen.exitonclick()
