@@ -28,3 +28,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | 13         | [Coffee Machine](/Apprentice/level_13/main.py)                     |
 | 14         | [Quiz Game](/Apprentice/level_14/main.py)                          |
 | 15         | [Hirst Spot Painting](/Apprentice/level_15/hirst_spot_painting.py) |
+| 16         | [Turtle Race](/Apprentice/level_16/turtle_race.py)                 |
