@@ -31,3 +31,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | 16         | [Turtle Race](/Apprentice/level_16/turtle_race.py)                 |
 | 17         | [Snake Game](/Apprentice/level_17/snake_game.py)                   |
 | 18         | [Pong Game](/Apprentice/level_18/pong.py)                          |
+| 19         | [Mail Merge](/Apprentice/level_19/mail_merge.py)                   |
