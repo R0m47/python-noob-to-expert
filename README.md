@@ -33,3 +33,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | 18         | [Pong Game](/Apprentice/level_18/pong.py)                          |
 | 19         | [Mail Merge](/Apprentice/level_19/mail_merge.py)                   |
 | 20         | [US States Game](/Apprentice/level_20/us_state_game.py)            |
+| 21         | [NATO Alphabet](/Apprentice/level_21/nato_alphabet.py)             |
