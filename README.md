@@ -23,14 +23,15 @@ This repository contains a collection of Python projects designed to reinforce a
 
 ### Apprentice
 
-| **Levels** | **Project Name**                                                   |
-| ---------- | ------------------------------------------------------------------ |
-| 13         | [Coffee Machine](/Apprentice/level_13/main.py)                     |
-| 14         | [Quiz Game](/Apprentice/level_14/main.py)                          |
-| 15         | [Hirst Spot Painting](/Apprentice/level_15/hirst_spot_painting.py) |
-| 16         | [Turtle Race](/Apprentice/level_16/turtle_race.py)                 |
-| 17         | [Snake Game](/Apprentice/level_17/snake_game.py)                   |
-| 18         | [Pong Game](/Apprentice/level_18/pong.py)                          |
-| 19         | [Mail Merge](/Apprentice/level_19/mail_merge.py)                   |
-| 20         | [US States Game](/Apprentice/level_20/us_state_game.py)            |
-| 21         | [NATO Converter](/Apprentice/level_21/nato_alphabet.py)            |
+| **Levels** | **Project Name**                                                                 |
+| ---------- | -------------------------------------------------------------------------------- |
+| 13         | [Coffee Machine](/Apprentice/level_13/main.py)                                   |
+| 14         | [Quiz Game](/Apprentice/level_14/main.py)                                        |
+| 15         | [Hirst Spot Painting](/Apprentice/level_15/hirst_spot_painting.py)               |
+| 16         | [Turtle Race](/Apprentice/level_16/turtle_race.py)                               |
+| 17         | [Snake Game](/Apprentice/level_17/snake_game.py)                                 |
+| 18         | [Pong Game](/Apprentice/level_18/pong.py)                                        |
+| 19         | [Mail Merge](/Apprentice/level_19/mail_merge.py)                                 |
+| 20         | [US States Game](/Apprentice/level_20/us_state_game.py)                          |
+| 21         | [NATO Converter](/Apprentice/level_21/nato_alphabet.py)                          |
+| 22         | [Feet Inches to Meters Converter](/Apprentice/level_22/feet_inches_to_meters.py) |
