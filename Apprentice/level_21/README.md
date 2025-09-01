@@ -20,7 +20,7 @@ Create a simple program that converts a word into its NATO phonetic alphabet equ
    ...
    ```
 
-2. Save the script as nato_converter.py.
+2. Save the script as `nato_converter.py`.
 
 3. Run:
 
