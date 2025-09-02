@@ -35,4 +35,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | 20         | [US States Game](/Apprentice/level_20/us_state_game.py)                              |
 | 21         | [NATO Converter](/Apprentice/level_21/nato_alphabet.py)                              |
 | 22         | [Feet and Inches to Meters Converter](/Apprentice/level_22/feet_inches_to_meters.py) |
-| 23         | [Pomodoro App](/Apprentice/level_23/pomodoro_app.py)                                 |
+| 23         | [Pomodoro Timer](/Apprentice/level_23/pomodoro_timer.py)                             |
