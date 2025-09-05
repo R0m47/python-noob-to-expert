@@ -36,3 +36,4 @@ This repository contains a collection of Python projects designed to reinforce a
 | 21         | [NATO Converter](/Apprentice/level_21/nato_converter.py)                             |
 | 22         | [Feet and Inches to Meters Converter](/Apprentice/level_22/feet_inches_to_meters.py) |
 | 23         | [Pomodoro Timer](/Apprentice/level_23/pomodoro_timer.py)                             |
+| 24         | [Password Manager](/Apprentice/level_24/password_manager.py)                         |
