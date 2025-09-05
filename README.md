@@ -33,6 +33,7 @@ This repository contains a collection of Python projects designed to reinforce a
 | 18         | [Pong Game](/Apprentice/level_18/pong.py)                                            |
 | 19         | [Mail Merge](/Apprentice/level_19/mail_merge.py)                                     |
 | 20         | [US States Game](/Apprentice/level_20/us_state_game.py)                              |
-| 21         | [NATO Converter](/Apprentice/level_21/nato_alphabet.py)                              |
+| 21         | [NATO Converter](/Apprentice/level_21/nato_converter.py)                             |
 | 22         | [Feet and Inches to Meters Converter](/Apprentice/level_22/feet_inches_to_meters.py) |
 | 23         | [Pomodoro Timer](/Apprentice/level_23/pomodoro_timer.py)                             |
+| 24         | [Password Manager](/Apprentice/level_24/password_manager.py)                         |
